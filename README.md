@@ -1,1 +1,4 @@
-# rod_cutting
+# Rod Cutting
+This repository contains functions for handling optimization of rod/pipe/timber cutting in JavaScript.
+
+"rod_cutting.js" provides an answer to the question: "What is the highest possible value for a given rod, assuming a discrete array of prices is available for rods of lengths equal to or less than the given rod?" As input, it accepts a 1-dimensional array populated with prices of rods of lengths equal to or less than the given rod, with array indices X matching the value of a rod of X + 1 length. For example, a rod of length 4 units will require an input array of 4 integers. Additionally, the function accounts for the cost of cutting the rod, incorporating an integer value for "cost per cut," providing an avenue to disincentivize larger numbers of cuts. As ouptut, it returns a single integer value representing the highest possible ("optimal") value for a given rod and pricing scenario.
